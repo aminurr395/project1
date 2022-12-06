@@ -1,0 +1,79 @@
+/*css Docment */
+.menu {
+    padding:0;
+	margin:0;
+	width:900px;
+	height:45px;
+	margin-down:10px
+	
+}
+ .menu ul {
+     padding:0;
+     margin:0
+    }
+.menu ul li {
+	display:inline-block;
+	padding: 0 -10px;
+    position: relative;
+	line-height:30px;
+	height:35px;
+	z-index:50;
+}
+.menu  ul li a{
+    text-decoration:none;
+	 padding:0 35px;
+	 background-color:#0E09E7;
+	 color:#fff;
+	 line-height:50px;
+	 display:block;
+     border-right:1px solid #000;
+      wight:200px;
+}
+.menu  ul li a:hover{
+    background-color:#020420
+    }
+.menu ul li ul {
+	position:absolute;
+	top:110%;
+
+	
+	visibility:hidden;
+	opacity:0;
+	
+	z-index:100;
+	padding:11px 0 10px 8px;
+}
+.menu ul li:hover ul {
+	visibility:visible;
+	opacity:1;
+}
+.menu ul li ul li {
+	display:block;
+	height:auto;
+	line-height:25px;
+	padding:0px 0px;
+}  
+.menu  ul li ul li{
+border-right:1px solid #000;
+   width:210px;
+    border:1px solid#000
+   }
+.menu  ul li ul li a{
+     border:0;
+	 }	 
+.menu  ul li:hover ul li ul{
+    visibility:hidden
+    }
+.menu  ul li ul li:hover ul{
+    visibility:visible;
+	left:203px;
+	top:0px
+	}
+*{margin:0;padding:0}
+body{font-family:Arial;font-size:14px;line-height:20px;color:black}	
+.main{width:860px;margin:0 auto; display:block;}   
+.header{}
+.header img{width:860px;height:120px}
+.important{color:Red;font-size:25px;background:White;}
+.footer{background:#333;color:white;margin-top:25px;padding:10px}	
+.slider img{width:900px;margin-top:15px}

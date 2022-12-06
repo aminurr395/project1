@@ -1,0 +1,62 @@
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doctor appointment booking </title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="header">
+  	<h2>Booking</h2>
+  </div>
+	
+  <form method="post" action="register.php">
+  	<?php include('errors.php'); ?>
+  		
+		<div class="input-group">
+				<label>Userid</label>
+				<input type="Number" name="id" value="id" >
+		</div>
+	
+	<div class="input-group">
+			<label>name</label>
+			<input type="text" name="rname" value="name" >
+  	</div>
+	
+  	<div class="input-group">
+			<label>Age</label>
+			<input type="Number" name="password_1">
+  	</div>
+	
+  	<div class="input-group">
+			<label>Contact </label>
+			<input type="Number" name="password_2">
+  	</div>
+	<div class="input-group">
+			<label>address</label>
+			<input type="text" name="address" value="address" >
+  	</div>
+		<div class="input-group">
+			<form action="/action_page.php">
+				<label for="#"> (Date and Time):</label>
+			<input type="datetime-local" id="#" name="#">
+		</div>
+	
+  	<div class="input-group">
+  	  <label>Bloodgroup</label>
+  	  <input type="text" name="password_1">
+  	</div>
+
+  	<div class="input-group">
+  	  <label>Email</label>
+  	  <input type="email" name="email" value="email">
+  	</div>
+	
+
+  	<div class="input-group">
+  	  <button type="submit" class="btn" name="reg_user">Submit</button>
+  	</div>
+			Not a member? <a href="register2.php">Sign up now</a>
+  </form>
+</body>
+</html>
